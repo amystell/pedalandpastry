@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedal & Pastry - Launching Soon</title>
+    <link rel="icon" type="image/png" href="assets/noBgColor.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .logo {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 60px;
+            display: block;
+        }
+
+        h1 {
+            font-family: 'Alice', serif;
+            font-size: 70px;
+            line-height: 1.2;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .subtitle {
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            color: #000000;
+        }
+
+        .launch-text {
+            font-family: 'Alice', serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .tagline {
+            font-family: 'Alice', serif;
+            font-size: 25px;
+            font-weight: 700;
+            color: #f5c8bd;
+            margin-bottom: 80px;
+        }
+
+        .social-icon {
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.1);
+        }
+
+        .social-icon img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 48px;
+            }
+
+            .logo {
+                width: 160px;
+                height: 160px;
+                margin-bottom: 40px;
+            }
+
+            .tagline {
+                font-size: 20px;
+                margin-bottom: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .logo {
+                width: 130px;
+                height: 130px;
+                margin-bottom: 30px;
+            }
+
+            .subtitle {
+                font-size: 14px;
+            }
+
+            .tagline {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/noBgBlack.png" alt="Pedal & Pastry Logo" class="logo">
+        
+        <h1>For those who ride for<br>the pastry stop.</h1>
+        
+        <p class="subtitle">We're baking up something new for cyclists who love a good<br>coffee break.</p>
+        
+        <p class="launch-text">Launching soon.</p>
+        
+        <p class="tagline">Pedal. Pastry. Perform.</p>
+        
+        <a href="https://instagram.com/pedalandpastry.cc" target="_blank" class="social-icon" aria-label="Follow us on Instagram">
+            <img src="assets/instagram-icon.png" alt="Instagram">
+        </a>
+    </div>
+</body>
+</html>
